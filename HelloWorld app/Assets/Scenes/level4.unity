@@ -2193,7 +2193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 632166793}
   ballForce: 200
-  maxSpeed: 10
+  maxSpeed: 8
 --- !u!50 &632166793
 Rigidbody2D:
   serializedVersion: 4
