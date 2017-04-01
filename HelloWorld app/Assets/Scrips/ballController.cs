@@ -24,7 +24,7 @@ public class ballController : MonoBehaviour {
 			transform.SetParent (null);
 			rb.isKinematic = false;
 
-            rb.AddForce (new Vector2 (0, Mathf.Abs(ballForce)));
+			rb.AddForce (new Vector2 ( Mathf.Abs(ballForce), Mathf.Abs(ballForce)));
 			gameStarted = true;
 
 		}
