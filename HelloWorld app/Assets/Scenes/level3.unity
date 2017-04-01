@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &50411845
 Rigidbody2D:
   serializedVersion: 4
@@ -246,6 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &135202222
 Rigidbody2D:
   serializedVersion: 4
@@ -441,6 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &224173710
 Rigidbody2D:
   serializedVersion: 4
@@ -553,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &224798224
 Rigidbody2D:
   serializedVersion: 4
@@ -665,6 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &245329110
 Rigidbody2D:
   serializedVersion: 4
@@ -864,6 +869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &274100760
 Rigidbody2D:
   serializedVersion: 4
@@ -976,6 +982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &331988358
 Rigidbody2D:
   serializedVersion: 4
@@ -1088,6 +1095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &376531418
 Rigidbody2D:
   serializedVersion: 4
@@ -1200,6 +1208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &378370286
 Rigidbody2D:
   serializedVersion: 4
@@ -1312,6 +1321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &380909788
 Rigidbody2D:
   serializedVersion: 4
@@ -1424,6 +1434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &398192060
 Rigidbody2D:
   serializedVersion: 4
@@ -1536,6 +1547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &427250946
 Rigidbody2D:
   serializedVersion: 4
@@ -1648,6 +1660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &481331245
 Rigidbody2D:
   serializedVersion: 4
@@ -1760,6 +1773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &538934172
 Rigidbody2D:
   serializedVersion: 4
@@ -1872,6 +1886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &551822832
 Rigidbody2D:
   serializedVersion: 4
@@ -1984,6 +1999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &718260028
 Rigidbody2D:
   serializedVersion: 4
@@ -2096,6 +2112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &766742703
 Rigidbody2D:
   serializedVersion: 4
@@ -2208,6 +2225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &771267826
 Rigidbody2D:
   serializedVersion: 4
@@ -2320,6 +2338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &782491042
 Rigidbody2D:
   serializedVersion: 4
@@ -2432,6 +2451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &795772813
 Rigidbody2D:
   serializedVersion: 4
@@ -2544,6 +2564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &843162879
 Rigidbody2D:
   serializedVersion: 4
@@ -2656,6 +2677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &867150099
 Rigidbody2D:
   serializedVersion: 4
@@ -2768,6 +2790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &876817107
 Rigidbody2D:
   serializedVersion: 4
@@ -2963,6 +2986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1117176636
 Rigidbody2D:
   serializedVersion: 4
@@ -3075,6 +3099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1122818999
 Rigidbody2D:
   serializedVersion: 4
@@ -3187,6 +3212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1240041906
 Rigidbody2D:
   serializedVersion: 4
@@ -3299,6 +3325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1270664461
 Rigidbody2D:
   serializedVersion: 4
@@ -3411,6 +3438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1295885350
 Rigidbody2D:
   serializedVersion: 4
@@ -3493,7 +3521,7 @@ GameObject:
   - component: {fileID: 1374416193}
   - component: {fileID: 1374416192}
   m_Layer: 0
-  m_Name: paddleBlu
+  m_Name: paddleRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3606,6 +3634,7 @@ GameObject:
   - component: {fileID: 1523772517}
   - component: {fileID: 1523772516}
   - component: {fileID: 1523772515}
+  - component: {fileID: 1523772518}
   m_Layer: 0
   m_Name: Bricks
   m_TagString: Untagged
@@ -3707,6 +3736,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1523772518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1523772514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89cdc6529f368684ba6a903a9e8ec4d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: level4
 --- !u!1 &1574986179
 GameObject:
   m_ObjectHideFlags: 0
@@ -3750,6 +3791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1574986182
 Rigidbody2D:
   serializedVersion: 4
@@ -3862,6 +3904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1646668475
 Rigidbody2D:
   serializedVersion: 4
@@ -3974,6 +4017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1712564033
 Rigidbody2D:
   serializedVersion: 4
@@ -4086,6 +4130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1722743411
 Rigidbody2D:
   serializedVersion: 4
@@ -4198,6 +4243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1835074933
 Rigidbody2D:
   serializedVersion: 4
@@ -4310,6 +4356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1901568589
 Rigidbody2D:
   serializedVersion: 4
@@ -4422,6 +4469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1934099775
 Rigidbody2D:
   serializedVersion: 4
@@ -4534,6 +4582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2059076132
 Rigidbody2D:
   serializedVersion: 4
@@ -4616,7 +4665,7 @@ GameObject:
   - component: {fileID: 2074961005}
   m_Layer: 0
   m_Name: downBarrier
-  m_TagString: Untagged
+  m_TagString: downBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4729,6 +4778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2075219453
 Rigidbody2D:
   serializedVersion: 4
@@ -4924,6 +4974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2100687188
 Rigidbody2D:
   serializedVersion: 4
@@ -5036,6 +5087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2115172730
 Rigidbody2D:
   serializedVersion: 4
@@ -5148,6 +5200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2115322909
 Rigidbody2D:
   serializedVersion: 4
@@ -5243,7 +5296,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2117700025}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15, y: 0.25141072, z: 0}
+  m_LocalPosition: {x: 0, y: 0.25141072, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 0}
   m_Children: []
   m_Father: {fileID: 1374416196}
@@ -5262,7 +5315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 2117700029}
   ballForce: 300
-  ballStarLocation: {x: 0, y: 0}
+  maxSpeed: 10
 --- !u!58 &2117700028
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5375,6 +5428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2121957638
 Rigidbody2D:
   serializedVersion: 4
@@ -5487,6 +5541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2123568687
 Rigidbody2D:
   serializedVersion: 4
@@ -5599,6 +5654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2143158061
 Rigidbody2D:
   serializedVersion: 4

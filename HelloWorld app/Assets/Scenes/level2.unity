@@ -252,6 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &98264111
 Rigidbody2D:
   serializedVersion: 4
@@ -364,6 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &156008147
 Rigidbody2D:
   serializedVersion: 4
@@ -476,6 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &180623068
 Rigidbody2D:
   serializedVersion: 4
@@ -588,6 +591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &203458498
 Rigidbody2D:
   serializedVersion: 4
@@ -700,6 +704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &414643879
 Rigidbody2D:
   serializedVersion: 4
@@ -747,7 +752,7 @@ GameObject:
   - component: {fileID: 444404029}
   - component: {fileID: 444404033}
   m_Layer: 0
-  m_Name: paddleBlu
+  m_Name: paddleRed
   m_TagString: paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -928,6 +933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &456626156
 Rigidbody2D:
   serializedVersion: 4
@@ -1040,6 +1046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &473697047
 Rigidbody2D:
   serializedVersion: 4
@@ -1152,6 +1159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &498745079
 Rigidbody2D:
   serializedVersion: 4
@@ -1264,6 +1272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &635545276
 Rigidbody2D:
   serializedVersion: 4
@@ -1376,6 +1385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &657111680
 Rigidbody2D:
   serializedVersion: 4
@@ -1488,6 +1498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &720869857
 Rigidbody2D:
   serializedVersion: 4
@@ -1683,6 +1694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &841996018
 Rigidbody2D:
   serializedVersion: 4
@@ -1795,6 +1807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1042271788
 Rigidbody2D:
   serializedVersion: 4
@@ -1907,6 +1920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1167284893
 Rigidbody2D:
   serializedVersion: 4
@@ -2019,6 +2033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1193570750
 Rigidbody2D:
   serializedVersion: 4
@@ -2148,7 +2163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12f3079cdfdc311418662e24c07879a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballStarLocation: {x: 0.15, y: 0.3}
 --- !u!1 &1328616343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1328616347
 Rigidbody2D:
   serializedVersion: 4
@@ -2339,6 +2354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1346237381
 Rigidbody2D:
   serializedVersion: 4
@@ -2451,6 +2467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1374556944
 Rigidbody2D:
   serializedVersion: 4
@@ -2563,6 +2580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1404832395
 Rigidbody2D:
   serializedVersion: 4
@@ -2629,7 +2647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1436770217}
   ballForce: 300
-  ballStarLocation: {x: 0.15, y: 0.3}
+  maxSpeed: 10
 --- !u!58 &1436770216
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2706,7 +2724,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1436770214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 0}
   m_Children: []
   m_Father: {fileID: 444404032}
@@ -2790,6 +2808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1457701933
 Rigidbody2D:
   serializedVersion: 4
@@ -2834,6 +2853,7 @@ GameObject:
   - component: {fileID: 1479726479}
   - component: {fileID: 1479726478}
   - component: {fileID: 1479726477}
+  - component: {fileID: 1479726480}
   m_Layer: 0
   m_Name: Bricks
   m_TagString: Untagged
@@ -2920,6 +2940,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1479726480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1479726476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89cdc6529f368684ba6a903a9e8ec4d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: level3
 --- !u!1 &1501908667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,6 +3030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1501908671
 Rigidbody2D:
   serializedVersion: 4
@@ -3110,6 +3143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1530025630
 Rigidbody2D:
   serializedVersion: 4
@@ -3222,6 +3256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1572436709
 Rigidbody2D:
   serializedVersion: 4
@@ -3504,6 +3539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1784245289
 Rigidbody2D:
   serializedVersion: 4
@@ -3616,6 +3652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1902832829
 Rigidbody2D:
   serializedVersion: 4
@@ -3728,6 +3765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1915055253
 Rigidbody2D:
   serializedVersion: 4
@@ -3840,6 +3878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &1967507099
 Rigidbody2D:
   serializedVersion: 4
@@ -3952,6 +3991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817937cccd2e14f4abdb46c2084f1354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxcollitions: 0
 --- !u!50 &2010171899
 Rigidbody2D:
   serializedVersion: 4
