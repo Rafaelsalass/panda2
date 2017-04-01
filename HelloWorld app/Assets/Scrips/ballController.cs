@@ -7,6 +7,7 @@ public class ballController : MonoBehaviour {
 
 	public Rigidbody2D rb;
 	public float ballForce;
+    public float maxSpeed;
 	bool gameStarted = false;
 
 
@@ -16,18 +17,17 @@ public class ballController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
-
+    void Update (){
+        rb.velocity = Vector3.ClampMagnitude (rb.velocity, maxSpeed);
 		if( Input.GetKeyUp(KeyCode.Space) && gameStarted == false ){
 
 			transform.SetParent (null);
 			rb.isKinematic = false;
 
-			rb.AddForce (new Vector2 (ballForce, ballForce));
+			rb.AddForce (new Vector2 (0, ballForce));
 			gameStarted = true;
 
 		}
-
-
 	}
+
 }

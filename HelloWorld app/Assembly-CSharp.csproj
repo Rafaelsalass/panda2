@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scrips\ballController.cs" />
      <Compile Include="Assets\Scrips\brickBehaviour.cs" />
      <Compile Include="Assets\Scrips\paddleMovement.cs" />
+     <Compile Include="Assets\Scrips\sceneChange.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

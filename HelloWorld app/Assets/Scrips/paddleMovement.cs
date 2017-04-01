@@ -6,7 +6,6 @@ public class paddleMovement : MonoBehaviour {
 	public Rigidbody2D rb;
 	public float speed;
 	public float maxX;
-
 	// Use this for initialization
 	void Start () {
 
