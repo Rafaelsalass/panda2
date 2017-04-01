@@ -997,7 +997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 361507817}
-  speed: 10
+  speed: 5
   maxX: 2.55
 --- !u!50 &361507817
 Rigidbody2D:
