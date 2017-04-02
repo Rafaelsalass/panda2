@@ -24,10 +24,25 @@ public class ballController : MonoBehaviour {
 			transform.SetParent (null);
 			rb.isKinematic = false;
 
-			rb.AddForce (new Vector2 (0, ballForce));
+            rb.AddForce (new Vector2 (0, Mathf.Abs(ballForce)));
 			gameStarted = true;
 
 		}
 	}
+
+    void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.tag == "downBarrier") {
+            gameStarted = false;
+            rb.isKinematic = true;
+            //transform.position = GameObject.Find("paddleRed").transform.position;
+            //rb.velocity = Vector3.zero;
+            Vector3 vector = GameObject.Find("paddleRed").transform.position;
+            vector.y += 0.3f;
+            transform.position = vector;
+            rb.velocity = Vector3.zero;
+            GameObject paddle = GameObject.Find ("paddleRed");
+            transform.parent = paddle.transform;
+        }
+    }
 
 }
