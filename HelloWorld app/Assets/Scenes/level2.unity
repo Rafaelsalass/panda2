@@ -2729,8 +2729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1436770217}
-  ballForce: 300
-  maxSpeed: 10
+  ballForce: 200
+  maxSpeed: 8
 --- !u!58 &1436770216
 CircleCollider2D:
   m_ObjectHideFlags: 0
