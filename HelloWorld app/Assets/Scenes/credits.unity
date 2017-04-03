@@ -368,7 +368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Elaborado por:'
+  m_Text: 'Developed by:'
 --- !u!222 &395213866
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -894,7 +894,7 @@ RectTransform:
   m_GameObject: {fileID: 1718849189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2566584, y: 1.209537, z: 1.2566584}
+  m_LocalScale: {x: 1.2891529, y: 1.2408129, z: 1.2891527}
   m_Children: []
   m_Father: {fileID: 1526980961}
   m_RootOrder: 0

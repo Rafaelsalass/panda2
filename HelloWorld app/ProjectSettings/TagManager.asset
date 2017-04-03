@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ball
   - downBarrier
+  - bossEye
   layers:
   - Default
   - TransparentFX
