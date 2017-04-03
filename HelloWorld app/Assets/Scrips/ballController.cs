@@ -9,6 +9,7 @@ public class ballController : MonoBehaviour {
 	public float ballForce;
     public float maxSpeed;
 	bool gameStarted = false;
+    bool isLaunchButtonPressed = false;
 	int life=5;
 
 	// Use this for initialization
@@ -19,14 +20,14 @@ public class ballController : MonoBehaviour {
 	// Update is called once per frame
     void Update (){
         rb.velocity = Vector3.ClampMagnitude (rb.velocity, maxSpeed);
-		if( Input.GetKeyUp(KeyCode.Space) && gameStarted == false ){
+        if( isLaunchButtonPressed && gameStarted == false ){
 
 			transform.SetParent (null);
 			rb.isKinematic = false;
 
 			rb.AddForce (new Vector2 ( Mathf.Abs(ballForce), Mathf.Abs(ballForce)));
 			gameStarted = true;
-
+            isLaunchButtonPressed = false;
 		}
 	}
 
@@ -46,6 +47,10 @@ public class ballController : MonoBehaviour {
 				Destroy (gameObject);
 			}
         }
+    }
+
+    public void launcButton(){
+        isLaunchButtonPressed = true;
     }
 
 }

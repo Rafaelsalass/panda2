@@ -6,38 +6,36 @@ public class paddleMovement : MonoBehaviour {
 	public Rigidbody2D rb;
 	public float speed;
 	public float maxX;
+    bool isAndroidPlatform = false;
 	// Use this for initialization
-	void Start () {
 
+	void Start () {
+        #if UNITY_ANDROID
+        isAndroidPlatform = true;
+        #else 
+        isAndroidPlatform = false;
+        #endif
+        if (isAndroidPlatform) {
+            Debug.Log ("android");
+        }
 	}
 
 	// Update is called once per frame
 	void Update () {
-		float x = Input.GetAxis ("Horizontal");
-		if (x < 0) {
-			MoveLeft ();
-		}
-		if (x > 0) {
-			MoveRight ();
-		}
-		if (x == 0) {
-			Stop ();
-		}
-		Vector2 pos = transform.position;
-		pos.x = Mathf.Clamp (pos.x,-maxX,maxX);
-		transform.position = pos;
+        Vector2 pos = transform.position;
+        pos.x = Mathf.Clamp (pos.x, -maxX, maxX);
+        transform.position = pos;
 	}
 
-	void MoveLeft(){
-		rb.velocity = new Vector2 (-speed,0);
-	}
+    public void moveLeft(){
+        rb.velocity = new Vector2 (-speed, 0);
+    }
 
-	void MoveRight(){
-		rb.velocity = new Vector2 (speed,0);
-	}
+    public void moveRight(){
+        rb.velocity = new Vector2 (speed, 0);
+    }
 
-	void Stop(){
-		rb.velocity = Vector2.zero;
-	}
-
+    public void setVelocityZero(){
+        rb.velocity = Vector2.zero;
+    }
 }
