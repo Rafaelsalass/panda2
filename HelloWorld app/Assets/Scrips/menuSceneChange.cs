@@ -32,6 +32,9 @@ public class menuSceneChange : MonoBehaviour {
         case 5:
             SceneManager.LoadScene ("Menu");
             break;
+        case 6:
+            SceneManager.LoadScene ("credits");
+            break;
         }
     }
 }
